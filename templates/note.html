@@ -1,0 +1,13 @@
+<html>
+  <body>
+  <a href="/{{index-1}}">Prev</a>
+  <a href="/{{index+1}}">Next</a>
+  <h1> Notes </h1>
+  {% for note in notes %}
+  <h1> {{ note.data.title }} </h1>
+  {{ note.pyhtml|safe }}
+  {% endfor %}
+  <a href="/{{index-1}}">Prev</a>
+  <a href="/{{index+1}}">Next</a>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "joplin-viewer2"
+version = "0.1.0"
+description = ""
+authors = ["Chen Yang <yangchen@thinkmore.info>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+loguru = "^0.7.2"
+marko = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
